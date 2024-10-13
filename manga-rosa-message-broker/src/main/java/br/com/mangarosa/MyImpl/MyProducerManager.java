@@ -14,8 +14,8 @@ public class MyProducerManager {
      * 
      * Explicação do padrão utilizado:
      * Este código usa uma abordagem chamada "Singleton", que é uma técnica
-     * de programação onde garantimos que existe apenas uma instância de uma classe
-     * em toda a aplicação. Neste caso, criamos apenas um TopicMessageProducer
+     * de programação onde garante que exista apenas uma instância de uma classe
+     * em toda a aplicação. Neste caso, criei apenas um TopicMessageProducer
      * que é compartilhado por todos os produtores específicos.
      */
     private static final TopicMessageProducer producer = new TopicMessageProducer();
